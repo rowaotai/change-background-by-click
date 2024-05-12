@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bg By Click</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="home">
+
+    <div class="all">
+
+        <div class="header">
+            <div class="logo">
+                <img src="Images/logo.jpg" class="img-logo" >
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#">new</a></li>
+                    <li><a href="#">shop</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+    
+            <div class="main-page">
+    
+                <div class="text">
+                    <h1>Anime PAG</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, reprehenderit quidem pariatur explicabo
+                        architecto deleniti, sed, ut quaerat dicta culpa minus quasi eum at officia!</p>
+                        <button>Click</button>
+                </div>
+                    <div class="image">
+                        <img src="Images/img4.jpg" class="main-img" id="main-img">
+                    </div>
+            </div>
+            <div class="changes">
+                <div><img src="Images/img1.jpg" onclick="change(this.src); colors('red')"></div>
+                <div><img src="Images/img2.jpg" onclick="change(this.src); colors('pink')"></div>
+                <div><img src="Images/img3.jpg" onclick="change(this.src); colors('gray')"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
